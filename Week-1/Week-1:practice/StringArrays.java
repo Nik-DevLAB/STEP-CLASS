@@ -1,3 +1,6 @@
+//Practice problems on string arrays in java
+
+
 public class StringArrays {
 
     public static String findLongestName(String[] names) {

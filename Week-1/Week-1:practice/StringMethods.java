@@ -4,7 +4,7 @@ public class StringMethods {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // User input
+       
         System.out.print("Enter your full name (first and last): ");
         String fullName = scanner.nextLine();
 
@@ -14,7 +14,7 @@ public class StringMethods {
         System.out.print("Enter a sentence about your programming experience: ");
         String sentence = scanner.nextLine();
 
-        // Processing
+        
         String[] nameParts = fullName.trim().split("\\s+");
         String firstName = nameParts[0];
         String lastName = (nameParts.length > 1) ? nameParts[1] : "";
@@ -22,7 +22,7 @@ public class StringMethods {
         int charCount = sentence.replace(" ", "").length();
         String favLangUpper = favLang.toUpperCase();
 
-        // Output
+        
         System.out.println("\n--- SUMMARY ---");
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
